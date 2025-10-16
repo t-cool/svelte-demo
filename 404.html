@@ -2,50 +2,37 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.png" />
+		<link rel="icon" href="/svelte-demo/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link href="./_app/immutable/assets/0.CYYXb7eB.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/2.BUoeZoYP.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.HCGF4-0W.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/DLzjmkQm.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/D4Dr05dE.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/PuRWaCD8.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/BFfNnqyf.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/BLeYf9XV.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/CZ-U5d5V.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.Bhcm89PF.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/CWj6FrbW.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/CYHqdmlc.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/BctpfvXM.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.zpTMzP9I.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/CIRmG4-b.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/DjLVbN2P.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.XadsPBWA.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/BvW-Sm8I.js"><!--[--><meta name="description" content="SvelteKitのデモアプリケーション" class="svelte-1uha8ag"/><!--]--><title>ホーム - SvelteKit Demo</title>
+		<link rel="modulepreload" href="/svelte-demo/app/immutable/entry/start.B2gwRlpu.js">
+		<link rel="modulepreload" href="/svelte-demo/app/immutable/chunks/AxrCchO-.js">
+		<link rel="modulepreload" href="/svelte-demo/app/immutable/chunks/D4Dr05dE.js">
+		<link rel="modulepreload" href="/svelte-demo/app/immutable/chunks/PuRWaCD8.js">
+		<link rel="modulepreload" href="/svelte-demo/app/immutable/chunks/BFfNnqyf.js">
+		<link rel="modulepreload" href="/svelte-demo/app/immutable/chunks/BLeYf9XV.js">
+		<link rel="modulepreload" href="/svelte-demo/app/immutable/chunks/BrLnlQkA.js">
+		<link rel="modulepreload" href="/svelte-demo/app/immutable/entry/app.B9JtjoPZ.js">
+		<link rel="modulepreload" href="/svelte-demo/app/immutable/chunks/CWj6FrbW.js">
+		<link rel="modulepreload" href="/svelte-demo/app/immutable/chunks/CYHqdmlc.js">
+		<link rel="modulepreload" href="/svelte-demo/app/immutable/chunks/BctpfvXM.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents"><!--[--><!--[--><!----><div class="app"><header><h1>🎯 SvelteKit Demo</h1> <nav><ul><li><a href="./">ホーム</a></li> <li><a href="./about">アバウト</a></li> <li><a href="./counter">カウンター</a></li> <li><a href="./todos">TODO</a></li></ul></nav></header> <main><!--[--><!----><section class="hero svelte-1uha8ag"><h2 class="svelte-1uha8ag">SvelteKit Demo App</h2> <!--[--><div class="loading svelte-1uha8ag"><div class="spinner svelte-1uha8ag"></div> <p class="svelte-1uha8ag">読み込み中...</p></div><!--]--> <div class="features svelte-1uha8ag"><div class="feature svelte-1uha8ag"><h3 class="svelte-1uha8ag">⚡ 高速</h3> <p class="svelte-1uha8ag">Viteベースの開発環境で高速なビルドとホットリロード</p></div> <div class="feature svelte-1uha8ag"><h3 class="svelte-1uha8ag">🎯 型安全</h3> <p class="svelte-1uha8ag">TypeScriptによる型安全な開発体験</p></div> <div class="feature svelte-1uha8ag"><h3 class="svelte-1uha8ag">📱 レスポンシブ</h3> <p class="svelte-1uha8ag">モバイルファーストなレスポンシブデザイン</p></div></div></section><!----><!--]--></main> <footer><p>© 2025 SvelteKit Demo App</p></footer></div><!----><!--]--> <!--[!--><!--]--><!--]-->
-			
+		<div style="display: contents">
 			<script>
 				{
-					__sveltekit_4o8p5d = {
-						base: new URL(".", location).pathname.slice(0, -1),
+					__sveltekit_udkska = {
+						base: "/svelte-demo",
 						assets: "/svelte-demo"
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.HCGF4-0W.js"),
-						import("./_app/immutable/entry/app.Bhcm89PF.js")
+						import("/svelte-demo/app/immutable/entry/start.B2gwRlpu.js"),
+						import("/svelte-demo/app/immutable/entry/app.B9JtjoPZ.js")
 					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 2],
-							data: [null,null],
-							form: null,
-							error: null
-						});
+						kit.start(app, element);
 					});
 				}
 			</script>
